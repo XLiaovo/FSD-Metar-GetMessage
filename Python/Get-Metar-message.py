@@ -26,6 +26,6 @@ try:
         print(f"{timestamp}: 程序静默，等待下一次执行...")
         time.sleep(1800) # 30分钟执行一次
 except KeyboardInterrupt:
-    print("Program terminated")
+    print("程序已终止")
 
-input("Press Enter to exit")
+input("按 Enter 退出")
