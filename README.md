@@ -42,7 +42,7 @@ python FSD-Metar-GetMessage.py
 ````javascript
 */30 * * * * curl https://your-server-path/FSD-Metar-GetMessage.php
 ````
-Replace https://your-server-path/FSD-Metar-GetMessage.php with the actual URL path to your FSD-Metar-GetMessage.php script.<br>
+Replace **<https://your-server-path/FSD-Metar-GetMessage.php>** with the actual URL path to your FSD-Metar-GetMessage.php script.<br>
 4. Save and exit the crontab editor.
 
 #### Notice:
@@ -55,7 +55,7 @@ Both of these methods will schedule the task to run every 30 minutes, triggering
 2. Copy the code to a file named, for example, "main.go".
 3. Open a terminal and navigate to the directory containing the "main.go" file.
 4. Run the program using the command: **go run main.go**.
-5. Once the program is running, you can access the URL **http://localhost:6327/fetch-metar** in your browser or through an HTTP request tool to trigger the fetching and saving of metar data. The saved data will be in the "metar.txt" file.
+5. Once the program is running, you can access the URL **<http://localhost:6327/fetch-metar>** in your browser or through an HTTP request tool to trigger the fetching and saving of metar data. The saved data will be in the "metar.txt" file.
 
 - For implementing scheduled execution, you can refer to tutorials on how to achieve similar functionality using PHP. This will give you insights into creating scheduled tasks or cron jobs in a different programming language.
 
