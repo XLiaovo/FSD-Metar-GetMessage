@@ -62,6 +62,8 @@ Both of these methods will schedule the task to run every 30 minutes, triggering
 ## License
 This script is provided under the GNU GENERAL PUBLIC LICENSE 3.0. You are free to use, modify, and distribute this code under the terms of this license. See **LICENSE** for more details.
 
+***
+
 <p align="center">
   Looking forward to your ⭐️ Star!
 </p>
