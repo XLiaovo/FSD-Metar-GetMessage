@@ -57,10 +57,10 @@ Both of these methods will schedule the task to run every 30 minutes, triggering
 4. Run the program using the command: **go run main.go**.
 5. Once the program is running, you can access the URL **<http://localhost:6327/fetch-metar>** in your browser or through an HTTP request tool to trigger the fetching and saving of metar data. The saved data will be in the "metar.txt" file.
 
+- For implementing scheduled execution, you can refer to tutorials on how to achieve similar functionality using PHP. This will give you insights into creating scheduled tasks or cron jobs in a different programming language.
+
 ## License
 This script is provided under the GNU GENERAL PUBLIC LICENSE 3.0. You are free to use, modify, and distribute this code under the terms of this license. See **LICENSE** for more details.
-
-- For implementing scheduled execution, you can refer to tutorials on how to achieve similar functionality using PHP. This will give you insights into creating scheduled tasks or cron jobs in a different programming language.
 
 <p align="center">
   Looking forward to your ⭐️ Star!
