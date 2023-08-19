@@ -49,6 +49,15 @@ Replace https://your-server-path/FSD-Metar-GetMessage.php with the actual URL pa
 
 Both of these methods will schedule the task to run every 30 minutes, triggering the specified URL path of FSD-Metar-GetMessage.php. Make sure you replace placeholders with the actual paths and URLs specific to your environment.
 
+### Go
+
+1. Make sure you have Go installed on your system.
+2. Copy the code to a file named, for example, "main.go".
+3. Open a terminal and navigate to the directory containing the "main.go" file.
+4. Run the program using the command: **go run main.go**.
+5. Once the program is running, you can access the URL **http://localhost:6327/fetch-metar** in your browser or through an HTTP request tool to trigger the fetching and saving of metar data. The saved data will be in the "metar.txt" file.
+
+- For implementing scheduled execution, you can refer to tutorials on how to achieve similar functionality using PHP. This will give you insights into creating scheduled tasks or cron jobs in a different programming language.
 
 <p align="center">
   Looking forward to your ⭐️ Star!
