@@ -45,7 +45,7 @@ python FSD-Metar-GetMessage.py
 Replace https://your-server-path/FSD-Metar-GetMessage.php with the actual URL path to your FSD-Metar-GetMessage.php script.<br>
 4. Save and exit the crontab editor.
 
-#### Note:
+#### Notice:
 
 Both of these methods will schedule the task to run every 30 minutes, triggering the specified URL path of FSD-Metar-GetMessage.php. Make sure you replace placeholders with the actual paths and URLs specific to your environment.
 
