@@ -1,4 +1,4 @@
-# FSD-Metar-GetMessage
+# FSD-Metar-GetMessage Utility
 Here is a simple code designed for multiple programming languages to fetch vatsim metar interface data. It addresses certain shortcomings in the FSD program. Please modify the weather section in the 'fsd.conf' file to '[weather] source=file'. This adjustment will enable you to access the necessary metar information within Euroscope.
 
 ## How To Use
